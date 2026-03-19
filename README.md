@@ -1,9 +1,20 @@
+<!-- PORTADA / BANNER -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/github/explore/main/topics/data-science/data-science.png" 
-       width="200" alt="Data Science Banner">
+  https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/artificial-intelligence.svg
 </p>
 
 <h1 align="center">📊 Impacto de la Inteligencia Artificial en la Percepción de Reemplazo Laboral</h1>
+
+<p align="center">
+  Un análisis basado en datos, visualizaciones y modelado predictivo sobre el miedo laboral frente a la IA
+</p>
+
+<p align="center">
+  https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge
+  https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge
+  https://img.shields.io/badge/Model-Decision%20Tree-orange?style=for-the-badge
+  https://img.shields.io/badge/Data%20Science-EDA%20%26%20ML-purple?style=for-the-badge
+</p>
 
 ---
 
@@ -47,11 +58,11 @@ Se desarrollaron visualizaciones orientadas a entender cómo se distribuye el mi
 
 ### 🔍 Principales hallazgos
 - Predomina un **miedo intermedio**, reflejando incertidumbre más que alarma  
-- El miedo es **transversal**, incluso en roles tecnológicos y expertos en IA  
+- El miedo es **transversal**, incluso en roles tecnológicos o expertos en IA  
 - La automatización influye, pero no de forma lineal  
 - El aprendizaje ayuda, pero **no elimina la sensación de riesgo**  
 - El burnout incrementa la percepción de amenaza laboral  
-- La satisfacción laboral actúa como factor protector, pero no absoluto  
+- La satisfacción laboral actúa como un factor protector, aunque no definitivo  
 
 ---
 
@@ -66,13 +77,14 @@ Se implementó un modelo de **árbol de decisión** para clasificar el nivel de 
 - Horas de uso de herramientas de IA  
 - Años de experiencia  
 
-### 📈 Resultados del modelo:
+### 📈 Resultados del modelo
 - **Precisión aproximada: 40–42%**  
 - Mejor desempeño en categorías **intermedias**  
-- Dificultad para clasificar percepciones extremas (bajo o alto)
+- Dificultad para clasificar extremos (miedo muy bajo o muy alto)
 
 ### 🧠 Interpretación
-El modelo confirma que la percepción de reemplazo es un fenómeno **multifactorial**, influenciado tanto por aspectos tecnológicos como por factores emocionales y condiciones laborales.
+El modelo confirma que la percepción de reemplazo es un fenómeno **multifactorial**, influenciado por factores emocionales, laborales y tecnológicos.  
+No se puede predecir únicamente desde lo técnico.
 
 ---
 
@@ -88,10 +100,10 @@ Los resultados permiten ser aplicados en:
 ---
 
 ## ⚠️ Limitaciones del estudio
-- Relaciones no lineales entre variables  
+- Relaciones no completamente lineales entre variables  
 - Precisión moderada del modelo  
-- Falta de variables cualitativas (cultura organizacional, liderazgo)  
-- Miedo laboral es una variable subjetiva y difícil de modelar  
+- Ausencia de variables cualitativas (liderazgo, clima, cultura organizacional)  
+- El miedo laboral es subjetivo y difícil de modelar con exactitud  
 
 ---
 
@@ -103,7 +115,7 @@ Los datos muestran que:
 
 - El miedo no es extremo, sino **moderado y persistente**  
 - El bienestar laboral influye tanto como la tecnología  
-- La adopción de IA requiere acompañamiento, comunicación y formación  
+- La adopción de IA requiere acompañamiento, claridad y aprendizaje continuo  
 
 La transformación digital no es solo tecnológica:  
 es **humana, emocional y estratégica**.
@@ -112,10 +124,7 @@ es **humana, emocional y estratégica**.
 
 ## 🛠️ Tecnologías utilizadas
 - Python  
-- Pandas, NumPy  
-- Scikit‑learn  
-- Matplotlib, Seaborn  
-- Jupyter Notebook  
+- VisualStudio
 
 ---
 
