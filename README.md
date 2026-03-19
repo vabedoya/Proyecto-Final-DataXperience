@@ -1,10 +1,9 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/klaussinani/tusk/master/media/header.png" 
-       width="85%" alt="Banner">
+  <img src="https://raw.githubusercontent.com/github/explore/main/topics/data-science/data-science.png" 
+       width="200" alt="Data Science Banner">
 </p>
 
 <h1 align="center">📊 Impacto de la Inteligencia Artificial en la Percepción de Reemplazo Laboral</h1>
-``
 
 ---
 
