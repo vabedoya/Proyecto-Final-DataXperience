@@ -1,6 +1,5 @@
-<!-- PORTADA / BANNER -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/artificial-intelligence.svg" width="120">
+  <img src="https://raw.githubusercontent.com/github/explore/main/topics/artificial-intelligence/artificial-intelligence.png" width="160">
 </p>
 
 <h1 align="center">📊 Impacto de la Inteligencia Artificial en la Percepción de Reemplazo Laboral</h1>
