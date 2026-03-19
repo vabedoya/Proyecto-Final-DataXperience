@@ -1,11 +1,3 @@
-<p align="center">
-  <a href="https://www.kaggle.com/datasets/nudratabbas/ai-worker-burnout-and-attrition-risk-dataset/data" target="_blank">
-    <img src="https://storage.googleapis.com/kaggle-datasets-images/4380087/7547080/8d7c5d9d6b0a3d5c3b75e1c0f5d3d6bb/dataset-cover.jpg" 
-         alt="Dataset AI Worker Burnout and Attrition Risk"
-         width="800">
-  </a>
-</p>
-
 <h1 align="center">📊 Impacto de la Inteligencia Artificial en la Percepción de Reemplazo Laboral</h1>
 
 <p align="center">
