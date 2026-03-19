@@ -1,130 +1,38 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/github/explore/main/topics/artificial-intelligence/artificial-intelligence.png" width="160">
+  <a href="https://www.kaggle.com/datasets/nudratabbas/ai-worker-burnout-and-attrition-risk-dataset/data" target="_blank">
+    <img src="https://storage.googleapis.com/kaggle-datasets-images/4380087/7547080/8d7c5d9d6b0a3d5c3b75e1c0f5d3d6bb/dataset-cover.jpg" 
+         alt="Dataset AI Worker Burnout and Attrition Risk"
+         width="800">
+  </a>
 </p>
 
 <h1 align="center">📊 Impacto de la Inteligencia Artificial en la Percepción de Reemplazo Laboral</h1>
 
 <p align="center">
-  Un análisis basado en datos, visualizaciones y modelado predictivo sobre el miedo laboral frente a la IA
+  Estudio basado en datos para analizar cómo la IA influye en la percepción de riesgo de sustitución laboral,
+  mediante visualización y modelado predictivo.
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Model-Decision%20Tree-orange?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Data%20Science-EDA%20%26%20ML-purple?style=for-the-badge">
+  <a href="https://www.kaggle.com/datasets/nudratabbas/ai-worker-burnout-and-attrition-risk-dataset/data">
+    <img src="https://img.shields.io/badge/Dataset-Kaggle-blue?style=for-the-badge&logo=kaggle" alt="Kaggle Dataset">
+  </a>
+  <img src="https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge&logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/Estado-Finalizado-brightgreen?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Modelo-Árbol%20de%20Decisión-orange?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Enfoque-EDA%20%2B%20ML-purple?style=for-the-badge">
 </p>
+
+---
+
+## 📂 Fuente de datos
+Este proyecto utiliza el siguiente dataset:
+
+👉 **AI Worker Burnout and Attrition Risk Dataset**  
+🔗 https://www.kaggle.com/datasets/nudratabbas/ai-worker-burnout-and-attrition-risk-dataset/data
 
 ---
 
 # 🎯 Objetivo
 Comprender cómo el uso de IA, el nivel de automatización de tareas y las condiciones laborales influyen en la percepción de reemplazo laboral.  
 El análisis integra **limpieza de datos, análisis exploratorio, visualizaciones y un modelo predictivo explicable**, permitiendo identificar patrones humanos y organizacionales detrás del miedo laboral.
-
----
-
-## 👥 Equipo de trabajo
-- **Preparación y calidad de datos**  
-- **Análisis exploratorio y visualización**  
-- **Modelo predictivo, interpretación global y storytelling**
-
----
-
-## 🧹 Preparación de los datos
-Se realizó un proceso estructurado y riguroso de depuración para garantizar un dataset confiable y apto para modelado. Incluyó:
-
-- Identificación y tratamiento de **63 valores nulos**  
-- Corrección de valores negativos mediante imputación por mediana  
-- Control de outliers mediante **capping**  
-- Validación de variables críticas:
-  - % de tareas automatizadas ajustado a un máximo realista de 100  
-  - Límites coherentes para horas de uso de IA  
-- Confirmación de ausencia de duplicados  
-
-El resultado fue un dataset **limpio, consistente y sin valores faltantes**, habilitando un análisis sólido.
-
----
-
-## 📊 Análisis exploratorio
-Se desarrollaron visualizaciones orientadas a entender cómo se distribuye el miedo y qué factores lo influyen:
-
-- Distribución del nivel de percepción de reemplazo por IA  
-- Comparación del miedo según **rol laboral**  
-- Asociación entre **nivel de automatización** y percepción de riesgo  
-- Relación entre **satisfacción laboral** y miedo  
-- Efecto del **aprendizaje en IA (upskilling)**  
-- Percepción de miedo según **etapa de adopción tecnológica**
-
-### 🔍 Principales hallazgos
-- Predomina un **miedo intermedio**, reflejando incertidumbre más que alarma  
-- El miedo es **transversal**, incluso en roles tecnológicos o expertos en IA  
-- La automatización influye, pero no de forma lineal  
-- El aprendizaje ayuda, pero **no elimina la sensación de riesgo**  
-- El burnout incrementa la percepción de amenaza laboral  
-- La satisfacción laboral actúa como un factor protector, aunque no definitivo  
-
----
-
-## 🤖 Modelo predictivo
-Se implementó un modelo de **árbol de decisión** para clasificar el nivel de miedo al reemplazo.
-
-### Variables consideradas:
-- Nivel de satisfacción laboral  
-- Nivel de agotamiento laboral (burnout)  
-- Porcentaje de tareas susceptibles de automatización  
-- Horas de aprendizaje en IA  
-- Horas de uso de herramientas de IA  
-- Años de experiencia  
-
-### 📈 Resultados del modelo
-- **Precisión aproximada: 40–42%**  
-- Mejor desempeño en categorías **intermedias**  
-- Dificultad para clasificar extremos (miedo muy bajo o muy alto)
-
-### 🧠 Interpretación
-El modelo confirma que la percepción de reemplazo es un fenómeno **multifactorial**, influenciado por factores emocionales, laborales y tecnológicos.  
-No se puede predecir únicamente desde lo técnico.
-
----
-
-## 💼 Aplicación en contexto profesional
-Los resultados permiten ser aplicados en:
-
-- Identificación de niveles de resistencia a la adopción de IA  
-- Diseño de programas de **upskilling** y reconversión laboral  
-- Estrategias de transformación digital con enfoque humano  
-- Gestión del talento basada en analítica  
-- Prevención de burnout y reducción de incertidumbre tecnológica  
-
----
-
-## ⚠️ Limitaciones del estudio
-- Relaciones no completamente lineales entre variables  
-- Precisión moderada del modelo  
-- Ausencia de variables cualitativas (liderazgo, clima, cultura organizacional)  
-- El miedo laboral es subjetivo y difícil de modelar con exactitud  
-
----
-
-## 📌 Conclusión
-La IA no genera miedo por sí misma.  
-El miedo surge por la combinación de **automatización**, **agotamiento**, **incertidumbre** y **sensación de falta de control**.
-
-Los datos muestran que:
-
-- El miedo no es extremo, sino **moderado y persistente**  
-- El bienestar laboral influye tanto como la tecnología  
-- La adopción de IA requiere acompañamiento, claridad y aprendizaje continuo  
-
-La transformación digital no es solo tecnológica:  
-es **humana, emocional y estratégica**.
-
----
-
-## 🛠️ Tecnologías utilizadas
-- Python  
-- VisualStudio
-
----
-
-## 📁 Estructura del proyecto
