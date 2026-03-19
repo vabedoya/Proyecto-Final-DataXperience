@@ -6,9 +6,9 @@ Analizar la relación entre el uso de inteligencia artificial y la percepción d
 ---
 
 ## 👥 Equipo de trabajo
-- [Lucy carolina Castro Rojas] – Preparación y calidad de datos  
-- [Jesus Alejandro Trompetera Vera] – Análisis exploratorio y visualización  
-- [Victor Alfonso Bedoya Mancera] – Modelado predictivo y conclusiones  
+- Preparación y calidad de datos  
+- Análisis exploratorio y visualización  
+- Modelado predictivo y conclusiones  
 
 ---
 
