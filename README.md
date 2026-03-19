@@ -89,3 +89,11 @@ La percepción de reemplazo laboral asociada al uso de inteligencia artificial s
 ---
 
 ## 📁 Estructura del proyecto
+proyecto-ia-miedo-laboral/
+│
+├── data/
+├── src/
+├── images/
+├── presentation/
+├── README.md
+└── requirements.txt
