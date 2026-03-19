@@ -1,13 +1,11 @@
-<!-- PORTADA / BANNER -->
 <p align="center">
-  <img src="https://i.imgur.com/ueQwQvv.png" alt="AI Impact Banner" width="100%">
+  <img src="https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/artificial-intelligence.svg" 
+       width="140" alt="AI Icon">
 </p>
 
 <h1 align="center">📊 Impacto de la Inteligencia Artificial en la Percepción de Reemplazo Laboral</h1>
 
-<p align="center">
-  <strong>Un análisis basado en datos, visualizaciones y modelado predictivo sobre el miedo laboral frente a la IA</strong>
-</p>
+<p align="center">Un proyecto de análisis, visualización y modelado predictivo aplicado a la percepción del miedo laboral frente a la IA</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge">
