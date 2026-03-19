@@ -1,96 +1,133 @@
-# 📊 Proyecto: Impacto de la Inteligencia Artificial en la percepción de reemplazo laboral
+<!-- PORTADA / BANNER -->
+<p align="center">
+  <img src="https://i.imgur.com/ueQwQvv.png" alt="AI Impact Banner" width="100%">
+</p>
 
-## 🎯 Objetivo
-Analizar la relación entre el uso de inteligencia artificial y la percepción de reemplazo laboral, a partir de un enfoque basado en datos que integra análisis exploratorio, visualización y modelado predictivo.
+<h1 align="center">📊 Impacto de la Inteligencia Artificial en la Percepción de Reemplazo Laboral</h1>
+
+<p align="center">
+  <strong>Un análisis basado en datos, visualizaciones y modelado predictivo sobre el miedo laboral frente a la IA</strong>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Model-Decision%20Tree-orange?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Data%20Science-EDA%20%26%20ML-purple?style=for-the-badge">
+</p>
+
+---
+
+# 🎯 Objetivo
+Comprender cómo el uso de IA, el nivel de automatización de tareas y las condiciones laborales influyen en la percepción de reemplazo laboral.  
+El análisis integra **limpieza de datos, análisis exploratorio, visualizaciones y un modelo predictivo explicable**, permitiendo identificar patrones humanos y organizacionales detrás del miedo laboral.
 
 ---
 
 ## 👥 Equipo de trabajo
-- Preparación y calidad de datos  
-- Análisis exploratorio y visualización  
-- Modelado predictivo y conclusiones  
+- **Preparación y calidad de datos**  
+- **Análisis exploratorio y visualización**  
+- **Modelo predictivo, interpretación global y storytelling**
 
 ---
 
 ## 🧹 Preparación de los datos
-Se llevó a cabo un proceso estructurado de depuración con el fin de garantizar la consistencia y confiabilidad del dataset. Este incluyó:
+Se realizó un proceso estructurado y riguroso de depuración para garantizar un dataset confiable y apto para modelado. Incluyó:
 
-- Tratamiento de valores nulos  
-- Corrección de registros atípicos y valores negativos  
-- Control de outliers mediante técnicas de capping  
-- Aplicación de reglas de validación sobre variables críticas (porcentajes y horas)  
+- Identificación y tratamiento de **63 valores nulos**  
+- Corrección de valores negativos mediante imputación por mediana  
+- Control de outliers mediante **capping**  
+- Validación de variables críticas:
+  - % de tareas automatizadas ajustado a un máximo realista de 100  
+  - Límites coherentes para horas de uso de IA  
+- Confirmación de ausencia de duplicados  
 
-Como resultado, se obtuvo una base de datos robusta y adecuada para el análisis.
+El resultado fue un dataset **limpio, consistente y sin valores faltantes**, habilitando un análisis sólido.
 
 ---
 
 ## 📊 Análisis exploratorio
-Se desarrolló un conjunto de visualizaciones orientadas a identificar patrones relevantes en los datos, entre ellas:
+Se desarrollaron visualizaciones orientadas a entender cómo se distribuye el miedo y qué factores lo influyen:
 
 - Distribución del nivel de percepción de reemplazo por IA  
-- Comparación por tipo de rol laboral  
-- Relación entre satisfacción laboral y percepción de riesgo  
-- Asociación entre uso de IA y nivel de preocupación  
+- Comparación del miedo según **rol laboral**  
+- Asociación entre **nivel de automatización** y percepción de riesgo  
+- Relación entre **satisfacción laboral** y miedo  
+- Efecto del **aprendizaje en IA (upskilling)**  
+- Percepción de miedo según **etapa de adopción tecnológica**
 
 ### 🔍 Principales hallazgos
-- Predomina un nivel intermedio de percepción de reemplazo  
-- Se evidencian variaciones según el rol desempeñado  
-- No se identifica una relación estrictamente lineal entre el uso de IA y la percepción de riesgo  
+- Predomina un **miedo intermedio**, reflejando incertidumbre más que alarma  
+- El miedo es **transversal**, incluso en roles tecnológicos y expertos en IA  
+- La automatización influye, pero no de forma lineal  
+- El aprendizaje ayuda, pero **no elimina la sensación de riesgo**  
+- El burnout incrementa la percepción de amenaza laboral  
+- La satisfacción laboral actúa como factor protector, pero no absoluto  
 
 ---
 
 ## 🤖 Modelo predictivo
-Se implementó un modelo de árbol de decisión con el objetivo de clasificar el nivel de percepción de reemplazo.
+Se implementó un modelo de **árbol de decisión** para clasificar el nivel de miedo al reemplazo.
 
 ### Variables consideradas:
-- Años de experiencia  
-- Porcentaje de tareas susceptibles de automatización  
-- Horas de uso de herramientas de IA  
-- Horas dedicadas a formación y actualización  
-- Nivel de agotamiento laboral (burnout)  
 - Nivel de satisfacción laboral  
+- Nivel de agotamiento laboral (burnout)  
+- Porcentaje de tareas susceptibles de automatización  
+- Horas de aprendizaje en IA  
+- Horas de uso de herramientas de IA  
+- Años de experiencia  
 
 ### 📈 Resultados del modelo:
-- Precisión aproximada: **42%**
+- **Precisión aproximada: 40–42%**  
+- Mejor desempeño en categorías **intermedias**  
+- Dificultad para clasificar percepciones extremas (bajo o alto)
 
 ### 🧠 Interpretación
-El modelo permite identificar tendencias iniciales; sin embargo, su desempeño sugiere que la percepción de reemplazo laboral es un fenómeno multifactorial, influenciado por variables que trascienden lo estrictamente cuantitativo.
+El modelo confirma que la percepción de reemplazo es un fenómeno **multifactorial**, influenciado tanto por aspectos tecnológicos como por factores emocionales y condiciones laborales.
 
 ---
 
 ## 💼 Aplicación en contexto profesional
-Los resultados de este análisis pueden ser utilizados en entornos organizacionales para:
+Los resultados permiten ser aplicados en:
 
-- Identificar niveles de resistencia frente a la adopción de IA  
-- Diseñar programas de capacitación y reconversión laboral  
-- Apoyar estrategias de transformación digital  
-- Fortalecer la gestión del talento en escenarios de automatización  
+- Identificación de niveles de resistencia a la adopción de IA  
+- Diseño de programas de **upskilling** y reconversión laboral  
+- Estrategias de transformación digital con enfoque humano  
+- Gestión del talento basada en analítica  
+- Prevención de burnout y reducción de incertidumbre tecnológica  
 
 ---
 
 ## ⚠️ Limitaciones del estudio
-- Relaciones no completamente lineales entre variables  
-- Capacidad predictiva moderada del modelo  
-- Posible ausencia de variables cualitativas relevantes  
+- Relaciones no lineales entre variables  
+- Precisión moderada del modelo  
+- Falta de variables cualitativas (cultura organizacional, liderazgo)  
+- Miedo laboral es una variable subjetiva y difícil de modelar  
 
 ---
 
 ## 📌 Conclusión
-La percepción de reemplazo laboral asociada al uso de inteligencia artificial se concentra en niveles intermedios, reflejando un escenario de incertidumbre más que de rechazo. Los factores humanos y organizacionales desempeñan un papel tan relevante como la tecnología en la configuración de esta percepción.
+La IA no genera miedo por sí misma.  
+El miedo surge por la combinación de **automatización**, **agotamiento**, **incertidumbre** y **sensación de falta de control**.
+
+Los datos muestran que:
+
+- El miedo no es extremo, sino **moderado y persistente**  
+- El bienestar laboral influye tanto como la tecnología  
+- La adopción de IA requiere acompañamiento, comunicación y formación  
+
+La transformación digital no es solo tecnológica:  
+es **humana, emocional y estratégica**.
 
 ---
 
 ## 🛠️ Tecnologías utilizadas
 - Python  
+- Pandas, NumPy  
+- Scikit‑learn  
+- Matplotlib, Seaborn  
+- Jupyter Notebook  
 
 ---
 
 ## 📁 Estructura del proyecto
-proyecto-ia-miedo-laboral/
-│
-├── data/
-├── src/
-├── images/
-├── presentation/
-├── README.md
-└── requirements.txt
