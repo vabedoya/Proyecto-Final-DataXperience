@@ -30,7 +30,7 @@ Este proyecto utiliza el dataset:
 ---
 
 # 🎯 Objetivo
-Analizar cómo factores tecnológicos y humanos —como el uso de IA, la automatización de tareas, el burnout y la satisfacción laboral— influyen en la percepción de reemplazo laboral.
+Analizar cómo factores tecnológicos y humanos como el uso de IA, la automatización de tareas, el burnout y la satisfacción laboral influyen en la percepción de reemplazo laboral.
 
 El enfoque integra:
 - Preparación y calidad de datos  
