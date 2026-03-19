@@ -1,18 +1,10 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/artificial-intelligence.svg" 
-       width="140" alt="AI Icon">
+  <img src="https://raw.githubusercontent.com/klaussinani/tusk/master/media/header.png" 
+       width="85%" alt="Banner">
 </p>
 
 <h1 align="center">📊 Impacto de la Inteligencia Artificial en la Percepción de Reemplazo Laboral</h1>
-
-<p align="center">Un proyecto de análisis, visualización y modelado predictivo aplicado a la percepción del miedo laboral frente a la IA</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Model-Decision%20Tree-orange?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Data%20Science-EDA%20%26%20ML-purple?style=for-the-badge">
-</p>
+``
 
 ---
 
