@@ -82,9 +82,6 @@ La percepción de reemplazo laboral asociada al uso de inteligencia artificial s
 
 ## 🛠️ Tecnologías utilizadas
 - Python  
-- Pandas  
-- Matplotlib / Seaborn  
-- Scikit-learn  
 
 ---
 
