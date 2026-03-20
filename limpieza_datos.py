@@ -5,7 +5,8 @@ import numpy as np
 
 df = pd.read_excel("Avances del Proyecto DataXperience.xlsx", 
                    sheet_name="1. Data Research & Cleaning (Ex")
-print(df.info())
+
+print(df.info())#resumen del dataframe
 
 print("\nvalores nulos:")
 print(df.isnull().sum())
@@ -28,9 +29,8 @@ limite_superior = Q3 + 1.5 * IQR
 # Hallar outliers
 outliers = df[(df['ai_replaces_my_tasks_pct'] < limite_inferior) | (df['ai_replaces_my_tasks_pct'] > limite_superior)]
 print(f"SE MUESTRAN OUTLIERS\n{outliers}")
-
-# Mostrar outliers
-sns.boxplot(x=df['ai_replaces_my_tasks_pct'])
+df_original = df.copy()
+ 
 
 #Identificamos todas las columnas numericas 
 colum_num = df.select_dtypes(include=[np.number]).columns 
@@ -44,12 +44,11 @@ print(f"Columnas procesadas: {list(colum_num)}")
 print("Nulos restantes en estas columnas:")
 print(df[colum_num].isnull().sum())
 
-
-df_num = df.select_dtypes(include=[np.number])
 #valores negativos
+df_num = df.select_dtypes(include=[np.number])
 negativos = df_num[df_num < 0].dropna(how='all', axis=0).dropna(how='all', axis=1)#se usa dropna para que solo se muestren los valores negativos 
 print(f"\nResumen de valores negativos detectados:\n{negativos}")
-plt.show()
+
 
 #Tratamiento de valores negativos, imputamos con la mediana para no sesgar datos hacia abajo
 mediana = df['team_size'].median()
@@ -68,9 +67,7 @@ for col in colum_num:#Usamos for para iterar sobre cada columna numerica
 df['ai_replaces_my_tasks_pct'] = df['ai_replaces_my_tasks_pct'].clip(upper=100)#se asigna un tope maximo de 100% para esta variable ya que no tiene sentido que supere ese valor
 df['hours_with_ai_assistance_daily'] = df['hours_with_ai_assistance_daily'].clip(upper=24)
 
-sns.boxplot(x=df["ai_replaces_my_tasks_pct"])
-plt.title("Variable principal despues del CAPPING global")
-plt.show()
+
 
 print("\n                                         ---VERIFICACIÓN DE TOPES---")
 print(f"Valor máximo de ai_replaces_my_tasks_pct: {df['ai_replaces_my_tasks_pct'].max()}")
@@ -78,9 +75,20 @@ print(f"Valor máximo de hours_with_ai_assistance_daily: {df['hours_with_ai_assi
 
 
 print("\n                                         ---RESUMEN ESTADISTICO---")
-print(df.describe())
+print(df.describe()) #para obtener estadísticas descriptivas de las columnas numéricas
 
+plt.figure(figsize=(12,5))#creamos una figura para la varible principal con dos subplots para comparar antes y despues del capping
+# grafico antes del capping
+plt.subplot(1,2,1)
+sns.boxplot(x=df_original['ai_replaces_my_tasks_pct'])
+plt.title("Antes del capping (con outliers)")
 
+# grafico despues del capping
+plt.subplot(1,2,2)
+sns.boxplot(x=df['ai_replaces_my_tasks_pct'])
+plt.title("Después del capping global")
+
+plt.show()
 
 #Guardar el archivo ya limpio:
 archivo_limpio = "Dataset_Limpio.xlsx"
